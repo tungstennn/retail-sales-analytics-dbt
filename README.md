@@ -12,19 +12,14 @@ raw → staging → intermediate → marts
 
 Each layer cleans/dedupes, joins, and aggregates data to produce fact and dimension tables for reporting.
 
-## 🧱 Tech Stack
+## Tech Stack
 - **dbt Core** — SQL-based data transformation and modelling  
 - **Snowflake / Redshift** — data warehouse  
 - **Python / Pandas** — data loading into the warehouse  
 - **Tableau / Streamlit (optional)** — dashboard or data visualization  
 
-## 🧠 Key Learning Goals
-- Build modular, dependency-driven dbt models  
-- Use Jinja and macros to simplify SQL logic  
-- Implement incremental models and testing  
-- Generate documentation and lineage with `dbt docs`
 
-## 🚀 Next Steps
+## Next Steps
 1. Create mock retail datasets (sales, customers, products).  
 2. Load raw data into the warehouse.  
 3. Develop dbt models for each layer.  
